@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="16dp"
+    android:background="@drawable/backg">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="TrackIT!"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo1"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Illustrations" />
+
+    <!-- Form Email -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="IIIustrations" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Let's get to it!"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="12dp" />
+
+    <!-- Form Password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:backgroundTint="#2196F3"
+        android:layout_marginLeft="80dp"
+        android:textColor="#FFF"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="Forgot Passwork?" />
+
+    <TextView
+        android:id="@+id/txtFg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:text="Don't have an account? Sign up here" />
+
+
+</LinearLayout>
